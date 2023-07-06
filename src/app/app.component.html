@@ -12,8 +12,6 @@
   </button>
   <button (click)="loadTeams()">Load Teams</button>
 </div>
-<div class="loading" *ngIf="loading$ | async">
-  <div class="loader-wrapper">
-    <kendo-loader type="infinite-spinner" themeColor="warning" size="large" />
-  </div>
+<div class="loading">
+  <kendo-loader type="infinite-spinner" themeColor="warning" size="large" />
 </div>
